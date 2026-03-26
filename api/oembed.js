@@ -16,7 +16,7 @@ export default function handler(req, res) {
       provider_name: "InflationEmbed",
       provider_url: "https://inflated-prices.vercel.app", //TODO: what does this do
       title: `$${amount} (${year}) → ??? today`,
-      html: `<iframe src="https://inflated-prices.vercel.app/embed/${amount}/${year}" width="200" height="40" style="border:none;"></iframe>`,
+      html: `<iframe src="https://inflated-prices.vercel.app/api/embed/${amount}/${year}" width="200" height="40" style="border:none;"></iframe>`,
       width: 200,
       height: 40
     });
