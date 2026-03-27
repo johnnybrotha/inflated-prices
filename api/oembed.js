@@ -111,3 +111,7 @@
   
     return res.status(400).json({ error: "Invalid URL format" });
   }
+
+//   curl -A "Discordbot/2.0" https://inflated-prices.vercel.app/api/oembed?url=/i/100/2021 -I
+
+//   https://inflated-prices.vercel.app/api/oembed?url=/i/100/2021
